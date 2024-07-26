@@ -112,8 +112,9 @@
 
 //Task 7
 
-// let LeapYear = 1888;
-// if ((LeapYear % 400 == 0) && (LeapYear % 4 == 0 || LeapYear % 100 != 0)) {
+
+// let y = 1888;
+// if ( (y % 400 == 0) || (y % 100 != 0) && (y % 4 == 0) ) {
 //     console.log("Leap year")    
 // }
 // else
@@ -121,12 +122,3 @@
 //     console.log("Not Leap Year")
 // }
 
-
-let y = 1888;
-if ( (y % 400 == 0) || (y % 100 != 0) && (y % 4 == 0) ) {
-    console.log("Leap year")    
-}
-else
-{
-    console.log("Not Leap Year")
-}
